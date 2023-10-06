@@ -15,6 +15,11 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <link rel="stylesheet" href="./style.css">
+  <style>
+    .cart{
+      color:white;
+    }
+  </style>
 </head>
 <body>
 
@@ -58,16 +63,16 @@
           </div>
        </nav>
     </div>
-    <hr class="muted-hr">
+    <hr>
 
  </div>
  <div class="container">
-  <div class="row">
+  <div class="row mx-5">
     <div class="col">
       <img class="rounded" src="./images/image-product-1.jpg" alt="product" height="340px">
 
       <div class="mt-4">
-        <img  class="rounded" src="./images/image-product-1-thumbnail.jpg " alt="" height="80px">
+        <img style="border: 1px solid hsl(26, 100%, 55%) "  class="rounded" src="./images/image-product-1-thumbnail.jpg " alt="" height="80px">
         <img class="rounded" src="./images/image-product-2-thumbnail.jpg" alt="" height="80px">
         <img class="rounded" src="./images/image-product-3-thumbnail.jpg" alt="" height="80px">
         <img class="rounded" src="./images/image-product-4-thumbnail.jpg" alt="" height="80px">
@@ -81,14 +86,15 @@
       <h6 style="color: hsl(26, 100%, 55%);">SNEAKER COMPANY</h6>
       <H4>Fall Limited Edition <br> Sneakers</H4>
       <div>
-        <h6>These low-profile sneakers are your perfect casual wear <br>companion. Featuring a durable rubber outer sole, they'll <br>withstand everything the weather can offer.</h6>
+        <h6 class="text-muted">These low-profile sneakers are your perfect casual wear <br>companion. Featuring a durable rubber outer sole, they'll <br>withstand everything the weather can offer.</h6>
       </div>
       <div class="row">
         <div class="col">
           <span><b>$125.00</b></span>
-           <span class="badge bg-secondary">50%</span>
+          <span class="badge bg-secondary " style="background-color: hsl(26, 100%, 55%);">50%</span>
+
         </div>
-        <span>$250</span>
+        <span class="text-muted">$250</span>
       </div>
 
       <div class="row mt-5">
@@ -100,7 +106,7 @@
             <img class="mx-2" src="./images/icon-plus.svg" alt="">
           </span>
 
-          <button class="mx-3"   style="background-color: hsl(26, 100%, 55%); border-radius: 20px; border: none; color: white; padding: 5px 20px 5px 20px; "> <img src="./images/icon-cart.svg"  alt=""> &nbsp; add to cart</button>
+          <button class="mx-3"   style="background-color: hsl(26, 100%, 55%); border-radius: 20px; border: none; color: white; padding: 5px 20px 5px 20px; "> <img class="cart" src="./images/icon-cart.svg"  alt=""> &nbsp; add to cart</button>
         </div>
         </div>
       </div>
@@ -120,7 +126,7 @@
 
 
   
-  <div class="attribution">
+  <div class="attribution mt-5">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
